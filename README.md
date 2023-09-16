@@ -13,6 +13,12 @@ $ git config --global user.name "Amandeep"
 $ git config --global user.email "amanmewar1718@gmail.com"
 ```
 
+* You can reset custom configurations using:
+  
+  ```
+  rm ~/.gitconfig
+  ```
+
 <img src="https://i.imgur.com/1zAiSqJ.png" alt="Alt Text" width="700" height="500">
 
 * The **git init** command is used to initialize a new Git repository in a directory while the **git status** command is used to check the current status of your Git repository.
@@ -51,8 +57,8 @@ When you clone a Git repository, you essentially make an identical copy of all t
 
 ```
 $ git clone <repository_url>
-
 ```
+
 
 <img src="https://i.imgur.com/jlsbHIs.png" alt="Alt Text" width="500" height="400">
 
@@ -102,7 +108,6 @@ $ git clone <repository_url>
 
     ```
     $ git restore --staged filename.txt
-
     ```
     
 <img src="https://i.imgur.com/Vc7RSCh.png" alt="Alt Text" width="600" height="500">
@@ -158,6 +163,7 @@ $ git clone <repository_url>
 
     ```
     $ git push origin <branch_name>
+    ```
     
     
 <img src="https://i.imgur.com/zQ9Y3AI.png" alt="Alt Text" width="700" height="800">
@@ -216,5 +222,5 @@ $ git clone <repository_url>
     ```
 
     ```
-    $ git sc "Files added"
+    $ git cm "Files added"
     ```
